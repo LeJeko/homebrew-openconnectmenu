@@ -1,6 +1,6 @@
 cask "openconnectmenu" do
-  version "1.8"
-  sha256 "034e35ac43b29e499a98c3571ee94a4f6d6daf887c189307b00ad0e24bd4c1a1"
+  version "2.0"
+  sha256 "d581bc3fcaba765be3606fe5c5b5f02f09ed6f50ab986072ed01f4afc3b02208"
 
   url "https://github.com/LeJeko/OpenConnectMenu/releases/download/v#{version}/OpenConnectMenu-#{version}.pkg"
   name "OpenConnectMenu"
@@ -28,8 +28,8 @@ cask "openconnectmenu" do
   ]
 
   caveats <<~EOS
-    Before uninstalling, open the menu-bar icon and choose "Uninstall helper"
-    so that macOS also forgets the background item.
+    Before uninstalling, open Settings… from the menu-bar icon, go to the General
+    tab and click "Uninstall helper", so that macOS also forgets the background item.
 
     Upgrading openconnect (brew upgrade openconnect) changes its checksum: the
     app will ask you to approve the new binary again.
