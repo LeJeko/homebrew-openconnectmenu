@@ -1,6 +1,6 @@
 cask "openconnectmenu" do
-  version "2.2"
-  sha256 "c90fe5838eda3a4d93ae81ebb166c37aa0575f45968cd8e05d2754a5e2758a79"
+  version "2.2.1"
+  sha256 "6dda70e52062a39787b56aecb93c205fda92035f932c5396e9339f8aa205998e"
 
   url "https://github.com/LeJeko/OpenConnectMenu/releases/download/v#{version}/OpenConnectMenu-#{version}.pkg"
   name "OpenConnectMenu"
