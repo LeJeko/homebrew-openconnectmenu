@@ -1,6 +1,6 @@
 cask "openconnectmenu" do
-  version "2.2.1"
-  sha256 "6dda70e52062a39787b56aecb93c205fda92035f932c5396e9339f8aa205998e"
+  version "2.3"
+  sha256 "209c25f575300c6d1f5febc907bed1eb0b3f13ed365c7474dce28429c85c2ae4"
 
   url "https://github.com/LeJeko/OpenConnectMenu/releases/download/v#{version}/OpenConnectMenu-#{version}.pkg"
   name "OpenConnectMenu"
@@ -28,6 +28,10 @@ cask "openconnectmenu" do
   ]
 
   caveats <<~EOS
+    OpenConnectMenu has no window. Its icon, a crossed-out padlock, is at the far left
+    of the right-hand part of the menu bar. On first launch it opens System Settings so
+    that you can allow its helper, then asks you to approve openconnect.
+
     Before uninstalling, open Settings… from the menu-bar icon, go to the General
     tab and click "Uninstall helper", so that macOS also forgets the background item.
 
